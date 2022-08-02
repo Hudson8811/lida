@@ -9,1596 +9,1576 @@
 
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/newstyle.css">
-
-
 </head>
 
 <body>
-	<div class="header-wrapper">
-		<header id="header">
-			<div class="menu-mobile-back"></div>
-			<div class="center header__center">
-				<div class="logo"><a href="/"><img src="images/header/logo.png" alt="лого юнипром"></a>
+	<div class="menu-mobile-back"></div>
+	<header id="header">
+		<div class="center header__center">
+			<div class="logo"><a href="/"><img src="images/header/logo.png" alt="лого юнипром"></a>
+			</div>
+			<div class="header_right pr">
+				<div id="ms_container">
+					<div id="title-search" class="search">
+						<form action="/search/" onsubmit="window.location='/search/?q='+$('#title-search-input').val()">
+							<div class="bx_field">
+								<input id="title-search-input" type="text" name="q" value="" size="23" maxlength="50" autocomplete="off"
+									class="bx_input_text">
+								<input name="s" type="submit" value="" class="bx_input_submit">
+							</div>
+						</form>
+					</div>
 				</div>
-				<div class="header_right pr">
-					<div id="ms_container">
-						<div id="title-search" class="search">
-							<form action="/search/" onsubmit="window.location='/search/?q='+$('#title-search-input').val()">
-								<div class="bx_field">
-									<input id="title-search-input" type="text" name="q" value="" size="23" maxlength="50" autocomplete="off"
-										class="bx_input_text">
-									<input name="s" type="submit" value="" class="bx_input_submit">
-								</div>
-							</form>
-						</div>
-					</div>
-					<address class="tel_block">
-						<p>Заказ по телефону
-							<br>
-							9:00-20:00, Пн-Вс
-						</p>
-					
-						<p class="tel ya-phone">+7 (495) 90-25-105</p>
-					</address>
-					<div class="social-elements">
-						<div class="social-title">Мы в социальных сетях:</div>
-						<ul class="social-list">
-							<li>
-								<a href="https://instagram.com/lidamebelcom" class="social-list_item" target="_blank" rel="nofollow">
-									<img src="images/header/instagram.svg" alt="instagram">
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="back_call">
-						<a href="javascript:void(0);" onclick="OpenWin('back_call_popup')">Обратный звонок</a>
-					</div>
-					<nav id="nav">
-					
-						<ul class="first_nav">
-						
-							<li><a href="/">Оплата</a></li>
-							
-							<li><a href="/">Доставка</a></li>
-							
-							<li><a href="/">Опт</a></li>
-							
-							<li><a href="/">В кредит</a></li>
-							
-							<li><a href="/" class="active">Скидки</a></li>
-							
-							<li><a href="/">О компании</a></li>
-							
-							<li><a href="/">Отзывы</a></li>
-							
-							<li><a href="/">Контакты</a></li>
-						
-						
-						</ul>
-					
-						<!-- <ul class="second_nav">
-							<li><a href="/payment/">Оплата</a></li>
-						
-							<li><a href="/delivery/">Доставка</a></li>
-						
-							<li><a href="/opt/">Опт</a></li>
-						
-							<li><a href="/credit/">В кредит</a></li>
-						
-							<li><a href="/sale/"><i class="percent">%</i>Распродажа</a></li>
-						
-						
-						</ul> -->
-					</nav>
-					<div id="reload_wishlist">
-						<a href="/cart/#wishlist" class="wish_info">
-							<span class="count">0</span>
-						</a>
-					</div>
-					<div id="reload_call">
-					
-						<noindex>
-							<a class="cart_info btn" href="/cart/" rel="nofollow">
-								<span><span class="count">0</span>товаров, на <strong>0</strong> рублей</span>
+				<address class="tel_block">
+					<p>Заказ по телефону
+						<br>
+						9:00-20:00, Пн-Вс
+					</p>
+				
+					<p class="tel ya-phone">+7 (495) 90-25-105</p>
+				</address>
+				<div class="social-elements">
+					<div class="social-title">Мы в социальных сетях:</div>
+					<ul class="social-list">
+						<li>
+							<a href="https://instagram.com/lidamebelcom" class="social-list_item" target="_blank" rel="nofollow">
+								<img src="images/header/instagram.svg" alt="instagram">
 							</a>
-						</noindex>
-					</div>
-					
-					<div class="mobile-menu">
-						<button class="menu" type="button">
-							<span></span>
-							<span></span>
-							<span></span>
-						</button>
-					</div>
+						</li>
+					</ul>
 				</div>
-				<div class="separator"></div>
-				<p class="slogan">Белорусская мебель из массива сосны, дуба и березы</p>
-				<div class="header_right header_right-bottom">
-					<div class="header-menu header-menu-desktop">
-						<ul class="header-menu__list">
-							<li class="header-menu__item header-menu__item-arrow">
-								<a class="header-menu__link">КАТАЛОГ МЕБЕЛИ</a>
-								<div class="header-submenu header-submenu-catalog">
-									<ul class="header-submenu__list">
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Столовая и гостиная
-											</a>
-											<div class="header-submenu-inner header-submenu-inner1">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Буфеты и витрины
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды, тумбы, сундуки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Столы обеденные и журнальные
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья, табуреты, скамейки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее для гостиной и столовой
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Наборы мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Спальня
-											</a>
-											<div class="header-submenu-inner header-submenu-inner2">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кровати
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды для спальни
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прикроватные тумбы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы для спальни
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Туалетные столики и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Наборы мебели
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item header-submenu__item-center">
-											<a href="#" class="header-submenu__link">
-												Подростковая мебель
-											</a>
-											<div class="header-submenu-inner header-submenu-inner3">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Кабинет и библиотека
-											</a>
-											<div class="header-submenu-inner header-submenu-inner4">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Письменные столы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стеллажи, шкафы для книг
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды для кабинета
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Бюро, секретеры
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Наборы мебели
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Прихожая
-											</a>
-											<div class="header-submenu-inner header-submenu-inner5">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы для прихожей
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Тумбы и комоды для прихожей
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Вешалки для одежды
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала для прихожей
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее для прихожей
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Наборы мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Кухня
-											</a>
-											<div class="header-submenu-inner header-submenu-inner6">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкаф-стол
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкаф настенный
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее для кухни
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Мягкая мебель
-											</a>
-											<div class="header-submenu-inner header-submenu-inner7">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны прямые
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны угловые
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кресла и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Готовые варианты
-														</a>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Матрасы и основания
-											</a>
-											<div class="header-submenu-inner header-submenu-inner8">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Матрасы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Основания под матрас
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header-menu__item header-menu__item-arrow">
-								<a class="header-menu__link">КОЛЛЕКЦИИ</a>
-								<div class="header-submenu header-submenu-colection">
-									<ul class="header-submenu__list">
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Кухня Викинг </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг браш <br> (белый) </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Кухня Викинг браш <br> (белая) </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг <br> (орех/серый/олива) </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">ICONS </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Луи Филипп </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Провинция </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Riva </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Столы и стулья <br> ПМЦ (Поставский <br> мебельный центр) </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Аляска </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Рандеву </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Рауна </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Паола </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Lugano </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Holz </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Форест </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">ЛеБо </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Мальта-Хельсинки </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Бостон </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Бейли </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Мягкая мебель <br> (Минскмебель) </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Верден </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Сиело </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Елена </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">AVIGNON <br> (АВИНЬОН) </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Тиффани </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Yatelei </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Мехико </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Лотос </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Неаполь </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Анастасия </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Верона </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Омега </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Габи </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Solea </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Фиерта </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">София </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Айно new </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Юстина </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Доминика </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Цезарь </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Милано </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Валенсия </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Элбург </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Кантри </a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Монблан </a></li>
-									</ul>
-								</div>
-	
-							</li>
-							<li class="header-menu__item header-menu__item-arrow">
-								<a class="header-menu__link">МЕБЕЛЬ ИЗ МАССИВА</a>
-								<div class="header-submenu header-submenu-massif">
-									<ul class="header-submenu__list">
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Дуб
-											</a>
-											<div class="header-submenu-inner">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Буфеты и витрины
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Тумбы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Сундуки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кровати
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кресла и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Столы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья и табуреты
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Скамейки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Сосна
-											</a>
-											<div class="header-submenu-inner">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Буфеты и витрины
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Тумбы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Сундуки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кровати
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кресла и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Столы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья и табуреты
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Скамейки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Берёза
-											</a>
-											<div class="header-submenu-inner">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Буфеты и витрины
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Тумбы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Сундуки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кровати
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кресла и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Столы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья и табуреты
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Скамейки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Ольха
-											</a>
-											<div class="header-submenu-inner">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Буфеты и витрины
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Тумбы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Сундуки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кровати
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кресла и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Столы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья и табуреты
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Скамейки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header-menu__item header-menu__item-arrow">
-								<a class="header-menu__link">ПРОИЗВОДИТЕЛИ</a>
-								<div class="header-submenu header-submenu-manufacturers">
-									<ul class="header-submenu__list">
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Пинскдрев
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Лидская мебельная фабрика
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												PMC Group (Поставский мебельный центр)
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												ФанДОК
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Панормо Мебель
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Луи Филипп Добрушдрев
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Минскпроектмебель
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												ММЦ
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Тимберика (Timberica)
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Шинака Мебель (Szynaka Meble)
-											</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header-menu__item">
-								<a class="header-menu__link active"><span>%</span> РАСПРОДАЖА</a>
-							</li>
-						</ul>
-					</div>
-					<div class="header-menu header-menu-mobile">
-						<ul class="header-menu__list">
-							<li class="header-menu__item">
-								<a class="header-menu__link menu__link-arrow">КАТАЛОГ МЕБЕЛИ</a>
-								<div class="header-submenu header-submenu-catalog">
-									<ul class="header-submenu__list">
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Столовая и гостиная
-											</a>
-											<div class="header-submenu-inner header-submenu-inner1">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Буфеты и витрины
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды, тумбы, сундуки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Столы обеденные и журнальные
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья, табуреты, скамейки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее для гостиной и столовой
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Наборы мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Спальня
-											</a>
-											<div class="header-submenu-inner header-submenu-inner2">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кровати
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды для спальни
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прикроватные тумбы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы для спальни
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Туалетные столики и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Наборы мебели
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Подростковая мебель
-											</a>
-											<div class="header-submenu-inner header-submenu-inner3">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Кабинет и библиотека
-											</a>
-											<div class="header-submenu-inner header-submenu-inner4">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Письменные столы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стеллажи, шкафы для книг
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды для кабинета
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Бюро, секретеры
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Наборы мебели
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Прихожая
-											</a>
-											<div class="header-submenu-inner header-submenu-inner5">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы для прихожей
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Тумбы и комоды для прихожей
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Вешалки для одежды
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала для прихожей
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее для прихожей
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Наборы мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Кухня
-											</a>
-											<div class="header-submenu-inner header-submenu-inner6">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкаф-стол
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкаф настенный
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее для кухни
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Мягкая мебель
-											</a>
-											<div class="header-submenu-inner header-submenu-inner7">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны прямые
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны угловые
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кресла и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Готовые варианты
-														</a>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Матрасы и основания
-											</a>
-											<div class="header-submenu-inner header-submenu-inner8">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Матрасы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Основания под матрас
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header-menu__item">
-								<a class="header-menu__link menu__link-arrow">МЕБЕЛЬ ИЗ МАССИВА</a>
-								<div class="header-submenu header-submenu-massif">
-									<ul class="header-submenu__list">
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Дуб
-											</a>
-											<div class="header-submenu-inner">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Буфеты и витрины
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Тумбы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Сундуки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кровати
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кресла и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Столы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья и табуреты
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Скамейки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Сосна
-											</a>
-											<div class="header-submenu-inner">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Буфеты и витрины
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Тумбы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Сундуки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кровати
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кресла и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Столы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья и табуреты
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Скамейки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Берёза
-											</a>
-											<div class="header-submenu-inner">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Буфеты и витрины
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Тумбы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Сундуки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кровати
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кресла и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Столы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья и табуреты
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Скамейки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link menu__link-arrow">
-												Ольха
-											</a>
-											<div class="header-submenu-inner">
-												<ul class="header-submenu-inner__list">
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Буфеты и витрины
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комоды
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Тумбы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Сундуки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Шкафы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кровати
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Диваны
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Кресла и банкетки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Столы
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Стулья и табуреты
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Скамейки
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Зеркала
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Прочее
-														</a>
-													</li>
-													<li class="header-submenu-inner__item">
-														<a href="#" class="header-submenu-inner__link">
-															Комплекты мебели
-														</a>
-													</li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header-menu__item">
-								<a class="header-menu__link menu__link-arrow">КОЛЛЕКЦИИ</a>
-								<div class="header-submenu header-submenu-colection">
-									<ul class="header-submenu__list">
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг
-											</a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Кухня
-												Викинг </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг
-												браш <br> (белый) </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Кухня
-												Викинг браш <br> (белая) </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг
-												<br> (орех/серый/олива) </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">ICONS
-											</a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Луи
-												Филипп </a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Провинция
-											</a></li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Riva </a>
-										</li>
-										<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Столы и
-												стулья <br> ПМЦ (Поставский <br> мебельный центр) </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Аляска
-											</a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Рандеву
-											</a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Рауна
-											</a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Паола
-											</a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Lugano
-											</a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Holz </a>
-										</li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Форест
-											</a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">ЛеБо </a>
-										</li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#"
-												class="header-submenu__link">Мальта-Хельсинки </a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Бостон
-											</a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Бейли
-											</a></li>
-										<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Мягкая
-												мебель <br> (Минскмебель) </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Верден
-											</a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Сиело
-											</a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Елена
-											</a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">AVIGNON
-												<br> (АВИНЬОН) </a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Тиффани
-											</a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Yatelei
-											</a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Мехико
-											</a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Лотос
-											</a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Неаполь
-											</a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Анастасия
-											</a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Верона
-											</a></li>
-										<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Омега
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Габи </a>
-										</li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Solea
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Фиерта
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">София
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Айно new
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Юстина
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Доминика
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Цезарь
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Милано
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Валенсия
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Элбург
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Кантри
-											</a></li>
-										<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Монблан
-											</a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="header-menu__item">
-								<a class="header-menu__link menu__link-arrow">ПРОИЗВОДИТЕЛИ</a>
-								<div class="header-submenu header-submenu-manufacturers">
-									<ul class="header-submenu__list">
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Пинскдрев
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Лидская мебельная фабрика
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												PMC Group (Поставский мебельный центр)
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												ФанДОК
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Панормо Мебель
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Луи Филипп Добрушдрев
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Минскпроектмебель
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												ММЦ
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Тимберика (Timberica)
-											</a>
-										</li>
-										<li class="header-submenu__item">
-											<a href="#" class="header-submenu__link">
-												Шинака Мебель (Szynaka Meble)
-											</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="header-menu__item">
-								<a class="header-menu__link"><span>%</span> РАСПРОДАЖА</a>
-							</li>
-						</ul>
-						<nav class="header-menu-bottom-mobile">
-							<ul class="header-menu-bottom-mobile__list">
-								<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Оплата</a></li>
-								<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Доставка</a></li>
-								<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Опт</a></li>
-								<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">В кредит</a></li>
-								<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Скидки</a></li>
-								<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">О компании</a></li>
-								<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Отзывы</a></li>
-								<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Контакты</a></li>
-							</ul>
-						</nav>
-					</div>
+				<div class="back_call">
+					<a href="javascript:void(0);" onclick="OpenWin('back_call_popup')">Обратный звонок</a>
+				</div>
+				<nav id="nav">
+				
+					<ul class="first_nav">
+					
+						<li><a href="/">Оплата</a></li>
+						
+						<li><a href="/">Доставка</a></li>
+						
+						<li><a href="/">Опт</a></li>
+						
+						<li><a href="/">В кредит</a></li>
+						
+						<li><a href="/" class="active">Скидки</a></li>
+						
+						<li><a href="/">О компании</a></li>
+						
+						<li><a href="/">Отзывы</a></li>
+						
+						<li><a href="/">Контакты</a></li>
+					
+					
+					</ul>
+				</nav>
+				<div id="reload_wishlist">
+					<a href="/cart/#wishlist" class="wish_info">
+						<span class="count">0</span>
+					</a>
+				</div>
+				<div id="reload_call">
+				
+					<noindex>
+						<a class="cart_info btn" href="/cart/" rel="nofollow">
+							<span><span class="count">0</span>товаров, на <strong>0</strong> рублей</span>
+						</a>
+					</noindex>
+				</div>
+				
+				<div class="mobile-menu">
+					<button class="menu" type="button">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
 				</div>
 			</div>
-		</header>
-	</div>
+			<div class="separator"></div>
+			<p class="slogan">Белорусская мебель из массива сосны, дуба и березы</p>
+			<div class="header_right header_right-bottom">
+				<div class="header-menu header-menu-desktop">
+					<ul class="header-menu__list">
+						<li class="header-menu__item header-menu__item-arrow">
+							<a class="header-menu__link">КАТАЛОГ МЕБЕЛИ</a>
+							<div class="header-submenu header-submenu-catalog">
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Столовая и гостиная
+										</a>
+										<div class="header-submenu-inner header-submenu-inner1">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Буфеты и витрины
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды, тумбы, сундуки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Столы обеденные и журнальные
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья, табуреты, скамейки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее для гостиной и столовой
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Наборы мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Спальня
+										</a>
+										<div class="header-submenu-inner header-submenu-inner2">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кровати
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды для спальни
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прикроватные тумбы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы для спальни
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Туалетные столики и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Наборы мебели
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item header-submenu__item-center">
+										<a href="#" class="header-submenu__link">
+											Подростковая мебель
+										</a>
+										<div class="header-submenu-inner header-submenu-inner3">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Кабинет и библиотека
+										</a>
+										<div class="header-submenu-inner header-submenu-inner4">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Письменные столы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стеллажи, шкафы для книг
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды для кабинета
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Бюро, секретеры
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Наборы мебели
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Прихожая
+										</a>
+										<div class="header-submenu-inner header-submenu-inner5">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы для прихожей
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Тумбы и комоды для прихожей
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Вешалки для одежды
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала для прихожей
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее для прихожей
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Наборы мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Кухня
+										</a>
+										<div class="header-submenu-inner header-submenu-inner6">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкаф-стол
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкаф настенный
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее для кухни
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Мягкая мебель
+										</a>
+										<div class="header-submenu-inner header-submenu-inner7">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны прямые
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны угловые
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кресла и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Готовые варианты
+													</a>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Матрасы и основания
+										</a>
+										<div class="header-submenu-inner header-submenu-inner8">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Матрасы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Основания под матрас
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="header-menu__item header-menu__item-arrow">
+							<a class="header-menu__link">КОЛЛЕКЦИИ</a>
+							<div class="header-submenu header-submenu-colection">
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Кухня Викинг </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг браш <br> (белый) </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Кухня Викинг браш <br> (белая) </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг <br> (орех/серый/олива) </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">ICONS </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Луи Филипп </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Провинция </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Riva </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Столы и стулья <br> ПМЦ (Поставский <br> мебельный центр) </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Аляска </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Рандеву </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Рауна </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Паола </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Lugano </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Holz </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Форест </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">ЛеБо </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Мальта-Хельсинки </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Бостон </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Бейли </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Мягкая мебель <br> (Минскмебель) </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Верден </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Сиело </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Елена </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">AVIGNON <br> (АВИНЬОН) </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Тиффани </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Yatelei </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Мехико </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Лотос </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Неаполь </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Анастасия </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Верона </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Омега </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Габи </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Solea </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Фиерта </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">София </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Айно new </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Юстина </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Доминика </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Цезарь </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Милано </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Валенсия </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Элбург </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Кантри </a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Монблан </a></li>
+								</ul>
+							</div>
 
-
+						</li>
+						<li class="header-menu__item header-menu__item-arrow">
+							<a class="header-menu__link">МЕБЕЛЬ ИЗ МАССИВА</a>
+							<div class="header-submenu header-submenu-massif">
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Дуб
+										</a>
+										<div class="header-submenu-inner">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Буфеты и витрины
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Тумбы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Сундуки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кровати
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кресла и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Столы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья и табуреты
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Скамейки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Сосна
+										</a>
+										<div class="header-submenu-inner">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Буфеты и витрины
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Тумбы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Сундуки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кровати
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кресла и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Столы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья и табуреты
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Скамейки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Берёза
+										</a>
+										<div class="header-submenu-inner">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Буфеты и витрины
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Тумбы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Сундуки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кровати
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кресла и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Столы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья и табуреты
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Скамейки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Ольха
+										</a>
+										<div class="header-submenu-inner">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Буфеты и витрины
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Тумбы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Сундуки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кровати
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кресла и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Столы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья и табуреты
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Скамейки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="header-menu__item header-menu__item-arrow">
+							<a class="header-menu__link">ПРОИЗВОДИТЕЛИ</a>
+							<div class="header-submenu header-submenu-manufacturers">
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Пинскдрев
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Лидская мебельная фабрика
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											PMC Group (Поставский мебельный центр)
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											ФанДОК
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Панормо Мебель
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Луи Филипп Добрушдрев
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Минскпроектмебель
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											ММЦ
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Тимберика (Timberica)
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Шинака Мебель (Szynaka Meble)
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="header-menu__item">
+							<a class="header-menu__link active"><span>%</span> РАСПРОДАЖА</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-menu header-menu-mobile">
+					<ul class="header-menu__list">
+						<li class="header-menu__item">
+							<a class="header-menu__link menu__link-arrow">КАТАЛОГ МЕБЕЛИ</a>
+							<div class="header-submenu header-submenu-catalog">
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Столовая и гостиная
+										</a>
+										<div class="header-submenu-inner header-submenu-inner1">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Буфеты и витрины
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды, тумбы, сундуки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Столы обеденные и журнальные
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья, табуреты, скамейки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее для гостиной и столовой
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Наборы мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Спальня
+										</a>
+										<div class="header-submenu-inner header-submenu-inner2">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кровати
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды для спальни
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прикроватные тумбы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы для спальни
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Туалетные столики и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Наборы мебели
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Подростковая мебель
+										</a>
+										<div class="header-submenu-inner header-submenu-inner3">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Кабинет и библиотека
+										</a>
+										<div class="header-submenu-inner header-submenu-inner4">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Письменные столы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стеллажи, шкафы для книг
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды для кабинета
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Бюро, секретеры
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Наборы мебели
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Прихожая
+										</a>
+										<div class="header-submenu-inner header-submenu-inner5">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы для прихожей
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Тумбы и комоды для прихожей
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Вешалки для одежды
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала для прихожей
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее для прихожей
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Наборы мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Кухня
+										</a>
+										<div class="header-submenu-inner header-submenu-inner6">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкаф-стол
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкаф настенный
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее для кухни
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Мягкая мебель
+										</a>
+										<div class="header-submenu-inner header-submenu-inner7">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны прямые
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны угловые
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кресла и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Готовые варианты
+													</a>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Матрасы и основания
+										</a>
+										<div class="header-submenu-inner header-submenu-inner8">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Матрасы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Основания под матрас
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="header-menu__item">
+							<a class="header-menu__link menu__link-arrow">МЕБЕЛЬ ИЗ МАССИВА</a>
+							<div class="header-submenu header-submenu-massif">
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Дуб
+										</a>
+										<div class="header-submenu-inner">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Буфеты и витрины
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Тумбы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Сундуки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кровати
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кресла и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Столы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья и табуреты
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Скамейки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Сосна
+										</a>
+										<div class="header-submenu-inner">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Буфеты и витрины
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Тумбы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Сундуки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кровати
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кресла и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Столы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья и табуреты
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Скамейки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Берёза
+										</a>
+										<div class="header-submenu-inner">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Буфеты и витрины
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Тумбы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Сундуки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кровати
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кресла и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Столы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья и табуреты
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Скамейки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link menu__link-arrow">
+											Ольха
+										</a>
+										<div class="header-submenu-inner">
+											<ul class="header-submenu-inner__list">
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Буфеты и витрины
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комоды
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Тумбы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Сундуки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Шкафы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кровати
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Диваны
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Кресла и банкетки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Столы
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Стулья и табуреты
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Скамейки
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Зеркала
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Прочее
+													</a>
+												</li>
+												<li class="header-submenu-inner__item">
+													<a href="#" class="header-submenu-inner__link">
+														Комплекты мебели
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="header-menu__item">
+							<a class="header-menu__link menu__link-arrow">КОЛЛЕКЦИИ</a>
+							<div class="header-submenu header-submenu-colection">
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг
+										</a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Кухня
+											Викинг </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг
+											браш <br> (белый) </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Кухня
+											Викинг браш <br> (белая) </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Викинг
+											<br> (орех/серый/олива) </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">ICONS
+										</a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Луи
+											Филипп </a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Провинция
+										</a></li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Riva </a>
+									</li>
+									<li class="header-submenu__item header-submenu__item1"><a href="#" class="header-submenu__link">Столы и
+											стулья <br> ПМЦ (Поставский <br> мебельный центр) </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Аляска
+										</a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Рандеву
+										</a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Рауна
+										</a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Паола
+										</a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Lugano
+										</a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Holz </a>
+									</li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Форест
+										</a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">ЛеБо </a>
+									</li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#"
+											class="header-submenu__link">Мальта-Хельсинки </a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Бостон
+										</a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Бейли
+										</a></li>
+									<li class="header-submenu__item header-submenu__item2"><a href="#" class="header-submenu__link">Мягкая
+											мебель <br> (Минскмебель) </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Верден
+										</a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Сиело
+										</a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Елена
+										</a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">AVIGNON
+											<br> (АВИНЬОН) </a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Тиффани
+										</a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Yatelei
+										</a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Мехико
+										</a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Лотос
+										</a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Неаполь
+										</a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Анастасия
+										</a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Верона
+										</a></li>
+									<li class="header-submenu__item header-submenu__item3"><a href="#" class="header-submenu__link">Омега
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Габи </a>
+									</li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Solea
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Фиерта
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">София
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Айно new
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Юстина
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Доминика
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Цезарь
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Милано
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Валенсия
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Элбург
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Кантри
+										</a></li>
+									<li class="header-submenu__item header-submenu__item4"><a href="#" class="header-submenu__link">Монблан
+										</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="header-menu__item">
+							<a class="header-menu__link menu__link-arrow">ПРОИЗВОДИТЕЛИ</a>
+							<div class="header-submenu header-submenu-manufacturers">
+								<ul class="header-submenu__list">
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Пинскдрев
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Лидская мебельная фабрика
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											PMC Group (Поставский мебельный центр)
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											ФанДОК
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Панормо Мебель
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Луи Филипп Добрушдрев
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Минскпроектмебель
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											ММЦ
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Тимберика (Timberica)
+										</a>
+									</li>
+									<li class="header-submenu__item">
+										<a href="#" class="header-submenu__link">
+											Шинака Мебель (Szynaka Meble)
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="header-menu__item">
+							<a class="header-menu__link"><span>%</span> РАСПРОДАЖА</a>
+						</li>
+					</ul>
+					<nav class="header-menu-bottom-mobile">
+						<ul class="header-menu-bottom-mobile__list">
+							<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Оплата</a></li>
+							<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Доставка</a></li>
+							<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Опт</a></li>
+							<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">В кредит</a></li>
+							<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Скидки</a></li>
+							<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">О компании</a></li>
+							<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Отзывы</a></li>
+							<li class="header-menu-bottom-mobile__item"><a href="/" class="header-menu-bottom-mobile__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script>
@@ -1610,11 +1590,13 @@
 				$(this).toggleClass('active');
 				$('.menu-mobile-back').toggleClass('active');
 				$('.header-menu-mobile').toggleClass('active');
+				$('body').toggleClass('active');
 			});
 			$('.menu-mobile-back').click(function (event) {
 				$('.mobile-menu').removeClass('active');
 				$('.menu-mobile-back').removeClass('active');
 				$('.header-menu-mobile').removeClass('active');
+				$('body').removeClass('active');
 			});
 		}); 
 	</script>
