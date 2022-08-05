@@ -638,8 +638,10 @@
   width: 100%;
 }
 
-.characteristic .js-tab-cont .product_left table.table__tabs tr > *:nth-child(2) {
-  padding-left: 22px;
+@media (max-width: 490px) {
+  .characteristic .js-tab-cont .product_left table.table__tabs tr > *:nth-child(2) {
+    padding-left: 22px;
+  }
 }
 
 .characteristic .js-tab-cont .product_left table.table__tabs thead {

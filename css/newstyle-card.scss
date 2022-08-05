@@ -438,9 +438,11 @@
 			table.table__tabs {
 				width: 100%;
 				tr {
-					>* {
-						&:nth-child(2) {
-							padding-left: 22px;
+					@media (max-width: 490px){
+						>* {
+							&:nth-child(2) {
+								padding-left: 22px;
+							}
 						}
 					}
 				}

@@ -52,27 +52,24 @@
   font-display: swap;
 }
 
-body {
+body.active {
+  overflow: hidden;
+}
+
+#wrap {
   padding-top: 147px;
-  height: calc(100% - 147px);
 }
 
 @media (max-width: 768px) {
-  body {
+  #wrap {
     padding-top: 165px;
-    height: calc(100% - 165px);
   }
 }
 
 @media (max-width: 490px) {
-  body {
+  #wrap {
     padding-top: 245px;
-    height: calc(100% - 245px);
   }
-}
-
-body.active {
-  overflow: hidden;
 }
 
 .center {
@@ -88,6 +85,7 @@ body.active {
   left: 0;
   width: 100%;
   z-index: 999;
+  padding-bottom: 12px;
 }
 
 @media (max-width: 768px) {

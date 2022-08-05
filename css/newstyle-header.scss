@@ -70,20 +70,19 @@
 	font-display: swap;
 }
 
-body {
-	padding-top: 147px;
-	height: calc(100% - 147px);
-	@media (max-width: 768px){
-		padding-top: 165px;
-		height: calc(100% - 165px);
-	}
-	@media (max-width: 490px){
-		padding-top: 245px;
-		height: calc(100% - 245px);
-	}
-}
 body.active {
 	overflow: hidden;
+}
+#wrap {
+	padding-top: 147px;
+
+	@media (max-width: 768px) {
+		padding-top: 165px;
+	}
+
+	@media (max-width: 490px) {
+		padding-top: 245px;
+	}
 }
 .center {
 	max-width: 1045px;
@@ -100,6 +99,7 @@ body.active {
 	left: 0;
 	width: 100%;
 	z-index: 999;
+	padding-bottom: 12px;
 	@media (max-width: 768px){
 		position: absolute;
 	}
