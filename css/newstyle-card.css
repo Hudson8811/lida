@@ -23,6 +23,10 @@
 .product_card .product_left {
   margin: 0;
   padding: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 709px;
+          flex: 0 1 709px;
+  padding: 20px;
 }
 
 @media (max-width: 360px) {
@@ -32,25 +36,13 @@
 }
 
 .product_card .product_left .prod__left {
+  width: 100%;
+  max-height: 536px;
   padding: 0;
   margin: 0;
-  /* display: flex; */
-  /* .gallery__pager {
-				display: flex;
-				flex-direction: column;
-				width: 177px;
-				max-width: 177px;
-				.slick-track {
-					max-width: 100%;
-					.pager_item {
-						width: 100%;
-						height: 177px;
-						background-color: #dddddd;
-						margin: 0;
-						margin-bottom: 20px;
-					}
-				}
-			} */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media (max-width: 768px) {
@@ -60,13 +52,36 @@
 }
 
 .product_card .product_left .prod__left .product__gallery {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 492px;
+          flex: 0 1 492px;
+  max-width: 492px;
+  height: 536px;
+  margin-bottom: 0;
+}
+
+.product_card .product_left .prod__left .product__gallery .item {
   width: 492px;
   height: 536px;
 }
 
-.product_card .product_left .prod__left .product__gallery .item {
+.product_card .product_left .prod__left .gallery__pager {
+  width: 177px;
+  max-width: 177px;
+  height: 536px;
+  max-height: 536px;
+}
+
+.product_card .product_left .prod__left .gallery__pager .slick-track {
+  max-width: 100%;
+}
+
+.product_card .product_left .prod__left .gallery__pager .slick-track .pager_item {
   width: 100%;
-  height: 100%;
+  height: 177px;
+  background-color: #dddddd;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .product_card .product_left .prod__right {
@@ -198,6 +213,16 @@
   font-size: 10px;
   line-height: 12px;
   color: #483F42;
+}
+
+.product_card .product_left .prod__right .functionality {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .product_card .product_left .prod__right .functionality {
+    display: block;
+  }
 }
 
 .product_card .product_right {
@@ -693,6 +718,12 @@
 
 .characteristic .js-tab-cont .product_right .descript p:last-child {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .characteristic .js-tab-cont .product_right .functionality {
+    display: none;
+  }
 }
 
 .functionality {

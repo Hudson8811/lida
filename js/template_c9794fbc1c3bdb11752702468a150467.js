@@ -2732,7 +2732,8 @@ $(document).ready(function () {
 		arrows: false,
 		asNavFor: '.gallery__pager',
 		fade: true,
-		swipe: false
+		swipe: false,
+		slidesToShow: 1,
 	});
 	gallery__pager.slick({
 		arrows: false,
@@ -2741,6 +2742,7 @@ $(document).ready(function () {
 		variableWidth: true,
 		focusOnSelect: true,
 		asNavFor: '.js-gallery',
+		vertical: true,
 		verticalSwiping: true,
 	});
 
