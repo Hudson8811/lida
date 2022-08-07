@@ -23,6 +23,10 @@
 		flex: 0 1 auto;
 		padding: 20px;
 		margin-right: 266px;
+		@media (max-width: 768px){
+			margin-right: 0;
+			padding: 0;
+		}
 		@media (max-width: 360px){
 			overflow: visible;
 		}
@@ -35,6 +39,7 @@
 			display: flex;
 			@media (max-width: 768px){
 				float: none;
+				display: block;
 			}
 			.product__gallery {
 				flex: 0 1 492px;
@@ -42,9 +47,18 @@
 				min-width: 0;
 				height: 536px;
 				margin-bottom: 0;
+				@media (max-width: 768px){
+					flex: 1 1 100%;
+					max-width: 100%;
+					height: 214px;
+				}
 				.item {
 					width: 492px;
 					height: 536px;
+					@media (max-width: 768px){
+						width: 100%;
+						height: 214px;
+					}
 					a {
 						img {
 							width: 100%;
@@ -58,9 +72,19 @@
 				width: 197px;
 				max-height: 536px;
 				padding-left: 20px;
-
+				@media (max-width: 768px){
+					margin-top: 20px;
+					padding-left: 0;
+					width: 100%;
+					.slick-list {
+						margin: 0 -14px 0 -6px;
+					}
+				}
 				.slick-track {
 					display: block;
+					@media (max-width: 768px){
+						display: flex;
+					}
 					.pager_item {
 						width: 177px;
 						height: 177px;
@@ -68,6 +92,12 @@
 						margin: 0;
 						margin-bottom: 20px;
 						border: none;
+						@media (max-width: 768px){
+							width: 54px;
+							height: 54px;
+							margin-bottom: 0;
+							margin: 0 6px;
+						}
 						img {
 							width: 100%;
 							height: 100%;
@@ -95,6 +125,7 @@
 			}
 			@media (max-width: 360px){
 				overflow: visible;
+				margin-top: 25px;
 			}
 			.product_info {
 				margin: 0;
@@ -132,6 +163,7 @@
 				@media (max-width: 500px){
 					flex: 1 1 100%;
 					margin-right: 0;
+					margin-top: 30px;
 				}
 				h3 {
 					margin-bottom: 12px;
@@ -175,7 +207,7 @@
 
 	.product_right {
 		width: 246px;
-		padding-top: 245px;
+		padding-top: 236px;
 		padding-right: 20px;
 		position: static;
 		float: none;
@@ -246,6 +278,9 @@
 					@media (max-width: 580px){
 						transform: translate(calc(-100% - 10px), calc(-100% - 20px));
 					}
+					@media (max-width: 360px){
+						transform: translate(calc(-100% - 20px), calc(-100% - 20px));
+					}
 					.wish-link {
 						position: relative;
 						width: 30px;
@@ -282,6 +317,7 @@
 			}
 			.green_box {
 				padding: 20px;
+				outline: 1px solid #45993c;
 				@media (max-width: 580px){
 					padding: 20px 10px;
 				}
@@ -314,9 +350,12 @@
 						display: flex;
 						align-items: center;
 						justify-content: center;
-						padding: 0 0 0 16px;
+						padding: 0 0 0 21px;
 						position: relative;
 						box-shadow: none;
+						@media (max-width: 360px){
+							padding: 0 0 0 24px;
+						}
 						&::before{
 							content:'';
 							position: absolute;
@@ -328,6 +367,9 @@
 							transform: translate(0, -50%);
 							@media (max-width: 580px){
 								left: 20px;
+							}
+							@media (max-width: 360px){
+								left: 54px;
 							}
 						}
 					}
@@ -395,11 +437,17 @@
 					24px;
 				}
 				>div {
+					padding-left: 84px;
 					@media (max-width: 360px){
 						padding-left: 98px;
 					}
 					&::after{
 						background: url('../images/card/ya-man.png') 0 0 no-repeat;
+					}
+					.rate {
+						margin: 2px 0 0;
+						width: 112px;
+						height: 21px;
 					}
 				}
 				a {
@@ -554,27 +602,9 @@
 .functionality {
 	padding: 0;
 	margin-top: 20px;
-	border: 1px solid #D9D4D0;
-	&-desk {
-		@media (max-width: 768px){
-			display: none;
-		}
-	}
-	&-mob {
-		display: none;
-		@media (max-width: 768px){
-			display: block;
-			flex: 0 1 calc(50% - 3px);
-		}
-		@media (max-width: 500px){
-			flex: 1 1 100%;
-		}
-		@media (max-width: 360px){
-			border-left: none;
-			border-right: none;
-			border-bottom: none;
-			
-		}
+	@media (max-width: 768px){
+		border: none;
+		border-top: 1px solid #D9D4D0;
 	}
 	ul.list {
 		padding: 20px;
@@ -627,6 +657,7 @@
 			&.icon-pay {
 				padding-left: 65px;
 				@media (max-width: 360px){
+					margin-top: 0;
 				}
 				&::after{
 					width: 42px;

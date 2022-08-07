@@ -86,6 +86,7 @@ body.active {
 }
 .center {
 	max-width: 1160px;
+	padding: 0 18px;
 }
 
 
@@ -197,6 +198,13 @@ body.active {
 	>* {
 		float: none;
 	}
+	.bx_field {
+		background: #e1dcd9 url(../images/header/search.svg) no-repeat 6px center/16px 16px;
+		border-radius: 15px;
+		input[type="text"] {
+			background: none;
+		}
+	}
 }
 @media only screen and (max-width: 999px) {
 	.header_right.pr {
@@ -221,6 +229,7 @@ body.active {
 			}
 			#title-search {
 				width: 100%;
+				
 			}
 		}
 		.tel_block {

@@ -74,6 +74,7 @@ body.active {
 
 .center {
   max-width: 1160px;
+  padding: 0 18px;
 }
 
 /* header-------------------header-----------------------header----------------------header-----------------header */
@@ -201,6 +202,15 @@ body.active {
 
 .header_right > * {
   float: none;
+}
+
+.header_right .bx_field {
+  background: #e1dcd9 url(../images/header/search.svg) no-repeat 6px center/16px 16px;
+  border-radius: 15px;
+}
+
+.header_right .bx_field input[type="text"] {
+  background: none;
 }
 
 @media only screen and (max-width: 999px) {

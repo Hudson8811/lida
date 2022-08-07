@@ -2745,6 +2745,16 @@ $(document).ready(function () {
 		infinite: true,
 		vertical: true,
 		verticalSwiping: true,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 4,
+					vertical: false,
+					verticalSwiping: false,
+				}
+			}
+		]
 	});
 
 	//selectable
@@ -4304,6 +4314,16 @@ PreviewPop.prototype = {
 						infinite: true,
 						vertical: true,
 						verticalSwiping: true,
+						responsive: [
+							{
+								breakpoint: 768,
+								settings: {
+									slidesToShow: 3.6,
+									vertical: false,
+									verticalSwiping: false,
+								}
+							}
+						]
 					});
 					setTimeout(function(){
 						loader.classList.add(self.options.prlCls);

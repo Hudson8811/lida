@@ -6493,7 +6493,6 @@ body.active {
 }
 
 .search input[type="text"] {
-  background: #e1dcd9 url(/bitrix/templates/lidamebel_new/css/../images/header/search.svg) no-repeat 6px center/16px 16px;
   padding: 0 25px;
 }
 
