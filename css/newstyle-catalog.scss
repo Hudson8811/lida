@@ -304,6 +304,9 @@ h1 {
 			padding: 20px;
 			width: calc(100% - 40px);
 			min-height: 206px;
+			.frame {
+				display: none;
+			}
 		}
 		.description {
 			height: auto!important;
@@ -357,7 +360,9 @@ h1 {
 							font-size: 10px;
 							line-height: 12px;
 							color: #837F7F;
-							padding: 0 20px 0 30px;/* 
+							padding: 0 20px 0 30px;
+							box-shadow: none;
+							/* 
 							@media (max-width: 1200px){
 								padding: 0;
 							} */
@@ -393,9 +398,11 @@ h1 {
 					font-weight: 400;
 					font-size: 10px;
 					line-height: 12px;
-					text-decoration-line: underline;
 					color: #000000;
-					transform: translate(0, calc(-100% - 3px));/* 
+					text-decoration: none;
+					transform: translate(0, calc(-100% - 3px));
+					border-bottom: 1px solid #6f1c13;
+					/* 
 					@media (max-width: 999px){
 						right: 100%;
 						white-space: nowrap;

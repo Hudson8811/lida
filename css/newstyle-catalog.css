@@ -467,6 +467,10 @@ h1 {
   min-height: 206px;
 }
 
+.product_box .product_item .slide_image .frame {
+  display: none;
+}
+
 .product_box .product_item .description {
   height: auto !important;
   padding: 20px;
@@ -544,6 +548,8 @@ h1 {
   line-height: 12px;
   color: #837F7F;
   padding: 0 20px 0 30px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   /* 
 							@media (max-width: 1200px){
 								padding: 0;
@@ -591,11 +597,11 @@ h1 {
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
   color: #000000;
+  text-decoration: none;
   -webkit-transform: translate(0, calc(-100% - 3px));
           transform: translate(0, calc(-100% - 3px));
+  border-bottom: 1px solid #6f1c13;
   /* 
 					@media (max-width: 999px){
 						right: 100%;
