@@ -1,19 +1,10 @@
 .tabs.tabs-delivery {
 	ul {
-		@media (max-width: 768px) {
-			display: flex;
-			flex-wrap: wrap;
-		}
 	
 		li {
-			@media (max-width: 768px) {
-				flex: 0 1 50%;
-				border: none;
-			}
 	
 			&.is-active {
-				flex: 1 1 100%;
-	
+				background: #45983C;
 				&::after {
 					display: none;
 				}
@@ -50,21 +41,4 @@
 			}
 		}
 	}
-
-
-	@media (max-width: 768px) {
-		height: 144px;
-		overflow: hidden;
-
-		ul {
-			min-width: auto;
-
-			li {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-		}
-	}
-
 }
