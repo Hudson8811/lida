@@ -410,6 +410,20 @@ h1 {
 						transform: translate(100%, -70%);
 					} */
 				}
+				.cant-buy-list {
+					height: 35px;
+					margin-top: 15px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-family: 'pf_din_text_comp_proregular';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 20px;
+					line-height: 24px;
+					text-transform: uppercase;
+					color: #837F7F;
+				}
 			}
 		}
 	}
