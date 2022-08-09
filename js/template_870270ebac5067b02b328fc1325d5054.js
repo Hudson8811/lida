@@ -2747,7 +2747,7 @@ $(document).ready(function () {
 		verticalSwiping: true,
 		responsive: [
 			{
-				breakpoint: 768,
+				breakpoint: 1046,
 				settings: {
 					slidesToShow: 4,
 					vertical: false,
@@ -4316,7 +4316,7 @@ PreviewPop.prototype = {
 						verticalSwiping: true,
 						responsive: [
 							{
-								breakpoint: 768,
+								breakpoint: 1046,
 								settings: {
 									slidesToShow: 3.6,
 									vertical: false,
