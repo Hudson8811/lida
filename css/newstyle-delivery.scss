@@ -8,6 +8,7 @@
 		li {
 			@media (max-width: 768px) {
 				flex: 0 1 50%;
+				border: none;
 			}
 	
 			&.is-active {
@@ -39,6 +40,8 @@
 			}
 	
 			a {
+				display: block;
+				width: 100%;
 				font-weight: 400;
 				font-size: 12px;
 				line-height: 14px;

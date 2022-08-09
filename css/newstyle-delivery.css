@@ -13,6 +13,7 @@
     -webkit-box-flex: 0;
         -ms-flex: 0 1 50%;
             flex: 0 1 50%;
+    border: none;
   }
 }
 
@@ -47,6 +48,8 @@
 }
 
 .tabs.tabs-delivery ul li a {
+  display: block;
+  width: 100%;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
