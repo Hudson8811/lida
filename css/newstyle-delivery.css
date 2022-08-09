@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-  .tabs ul {
+  .tabs.tabs-delivery ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -9,44 +9,44 @@
 }
 
 @media (max-width: 768px) {
-  .tabs ul li {
+  .tabs.tabs-delivery ul li {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 50%;
             flex: 0 1 50%;
   }
 }
 
-.tabs ul li.is-active {
+.tabs.tabs-delivery ul li.is-active {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
 }
 
-.tabs ul li.is-active::after {
+.tabs.tabs-delivery ul li.is-active::after {
   display: none;
 }
 
-.tabs ul li:nth-child(1) {
+.tabs.tabs-delivery ul li:nth-child(1) {
   background: #45983C;
 }
 
-.tabs ul li:nth-child(2) {
+.tabs.tabs-delivery ul li:nth-child(2) {
   background: #895431;
 }
 
-.tabs ul li:nth-child(3) {
+.tabs.tabs-delivery ul li:nth-child(3) {
   background: #F3C79A;
 }
 
-.tabs ul li:nth-child(4) {
+.tabs.tabs-delivery ul li:nth-child(4) {
   background: #D3AA6D;
 }
 
-.tabs ul li:nth-child(5) {
+.tabs.tabs-delivery ul li:nth-child(5) {
   background: #B99A80;
 }
 
-.tabs ul li a {
+.tabs.tabs-delivery ul li a {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -55,14 +55,14 @@
 }
 
 @media (max-width: 768px) {
-  .tabs {
+  .tabs.tabs-delivery {
     height: 144px;
     overflow: hidden;
   }
-  .tabs ul {
+  .tabs.tabs-delivery ul {
     min-width: auto;
   }
-  .tabs ul li {
+  .tabs.tabs-delivery ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
