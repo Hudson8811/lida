@@ -388,21 +388,7 @@
 					}
 				}
 			}
-			&--red {
-				border: 2px solid #57170D;
-				.green_box {
-					outline: 1px solid #57170D;
-					background-color: #57170D;
-					.cant-buy {
-						font-family: 'pf_din_text_comp_proregular';
-						font-weight: 400;
-						font-size: 20px;
-						line-height: 24px;
-						text-transform: uppercase;
-						color: #FFFFFF;
-					}
-				}
-			}
+			
 		}
 		.overlay {
 			@media (max-width: 1045px){
@@ -498,7 +484,23 @@
 		}
 	}
 }
+.price_cover.price_cover--red {
+	border: 2px solid #57170D;
 
+	.green_box {
+		outline: 1px solid #57170D!important;
+		background-color: #57170D;
+
+		.cant-buy {
+			font-family: 'pf_din_text_comp_proregular';
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 24px;
+			text-transform: uppercase;
+			color: #FFFFFF;
+		}
+	}
+}
 
 .characteristic {
 	.tabs {
