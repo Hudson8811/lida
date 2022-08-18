@@ -206,12 +206,6 @@ body.active {
   }
 }
 
-@media (max-width: 992px) {
-  .header_right {
-    margin-left: 267px;
-  }
-}
-
 .header_right > * {
   float: none;
 }
@@ -393,13 +387,16 @@ body.active {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  margin-left: 55px;
+  margin-left: 0px;
   width: auto;
   margin-top: 0px;
   line-height: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -441,7 +438,7 @@ body.active {
 }
 
 .tel_block .tel {
-  margin-left: 39px;
+  margin-left: 90px;
   padding-left: 0px;
   padding-top: 0px;
   font-size: 18px;
@@ -451,6 +448,12 @@ body.active {
   font-size: 18px;
   line-height: 22px;
   color: #4B1814;
+}
+
+@media (max-width: 1170px) {
+  .tel_block .tel {
+    margin-left: 40px;
+  }
 }
 
 .tel_block .tel::before {
