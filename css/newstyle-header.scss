@@ -195,6 +195,12 @@ body.active {
 	overflow: hidden;
 	padding-top: 20px;
 	margin-left: 267px;
+	@media (max-width: 1070px){
+		margin-left: 200px;
+	}
+	@media screen and (min-width: 683px) and (max-width: 999px) .header_right {
+		margin-left: 200px !important;
+	}
 	>* {
 		float: none;
 	}
@@ -321,6 +327,7 @@ body.active {
 }
 
 .tel_block {
+	flex: 1 1 auto;
 	margin-left: 55px;
 	width: auto;
 	margin-top: 0px;
@@ -328,7 +335,7 @@ body.active {
 	display: flex;
 	align-items: center;
 	@media (max-width: 1170px){
-		margin-left: 0px;
+		margin-left: 20px;
 	}
 	@media (max-width: 999px){
 		margin-left: 100px;
@@ -371,7 +378,7 @@ body.active {
 			top: 50%;
 			left: -3px;
 			transform: translate(-100%, -50%);
-			background: url(../images/header/phone-call.svg) no-repeat 0 0 / 100% 100%;
+			background: url(../images/header/tel_icon.png) no-repeat 0 0 / 100% 100%;
 		}
 	}
 }
@@ -393,7 +400,7 @@ body.active {
 	}
 	.social-list {
 		font-size: 0;
-		margin-left: 20px;
+		margin-left: 0px;
 		text-align: center;
 		@media (max-width: 900px){
 			margin-left: 0;
@@ -412,7 +419,7 @@ body.active {
 .social-elements+.back_call {
 	margin-left: 20px;
 	@media (max-width: 1170px){
-		margin-left: 0px;
+		margin-left: 10px;
 	}
 }
 .back_call {
@@ -490,6 +497,12 @@ body.active {
 }
 
 
+#reload_wishlist {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
 .wish_info {
 	width: 26px;
 	height: 23px;
@@ -530,7 +543,7 @@ body.active {
 	margin-left: 20px;
 	padding: 0;
 	@media (max-width: 1170px){
-		margin-left: 0;
+		margin-left: 10px;
 	}
 	@media screen and (max-width: 999px){
 		margin-left: 30px;
@@ -790,7 +803,7 @@ body.active {
 		font-family: 'Verdana';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 11px;
+		font-size: 12px;
 		line-height: 13px;
 		color: #FFFFFF;
 		&:hover {
@@ -823,7 +836,7 @@ body.active {
 		font-family: 'Verdana';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 11px;
+		font-size: 12px;
 		line-height: 13px;
 		color: #FFFFFF;
 		transition: all 0.3s ease 0s;
@@ -971,7 +984,7 @@ body.active {
 			font-family: 'Verdana';
 			font-style: normal;
 			font-weight: 400;
-			font-size: 11px;
+			font-size: 12px;
 			line-height: 13px;
 			color: #FFFFFF;
 
@@ -999,7 +1012,7 @@ body.active {
 			font-family: 'Verdana';
 			font-style: normal;
 			font-weight: 400;
-			font-size: 11px;
+			font-size: 12px;
 			line-height: 13px;
 			color: #FFFFFF;
 		}

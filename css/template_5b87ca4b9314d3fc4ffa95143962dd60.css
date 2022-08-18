@@ -1323,7 +1323,7 @@ a[data-anchor]:hover {
     border-radius: 16px;
     box-sizing: border-box;
     display: inline-block;
-    font-size: 11px;
+    font-size: 12px;
     height: 18px;
     line-height: 17px;
     padding: 0 13px;
@@ -1403,7 +1403,7 @@ a[data-anchor]:hover {
 .functionality .list li {
     box-sizing: border-box;
     display: inline-block;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: -0.2px;
     margin-bottom: 10px;
     padding-left: 28px;
@@ -1962,13 +1962,13 @@ a[data-anchor]:hover {
     margin: 20px 0 10px;
 }
 .abilities-items p {
-    font-size: 11px;
+    font-size: 12px;
 }
 blockquote {
     font-family: Verdana, Arial, sans-serif;
     font-style: italic;
     color: #64544e;
-    font-size: 11px;
+    font-size: 12px;
     border-width: 4px 0 4px 0;
     border-style: solid;
     border-color: #e4ddda;
@@ -2028,7 +2028,7 @@ blockquote::after {
     display: inline-block;
 }
 .rotator-item p {
-    font-size: 11px;
+    font-size: 12px;
 }
 .certificates-collection .bx-controls {
     bottom: -11px;
@@ -2377,7 +2377,7 @@ div.slides .caroufredsel_wrapper {
 }
 .review__like .review__like-text {
     font-family: Verdana, Arial, sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     font-style: italic;
     color: #a89f99;
 }
@@ -2413,7 +2413,7 @@ div.slides .caroufredsel_wrapper {
     line-height: 25px;
     color: #5aa551;
     font-family: Verdana, Arial, sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     display: inline-block;
     vertical-align: top;
     cursor: pointer;
@@ -2434,7 +2434,7 @@ div.slides .caroufredsel_wrapper {
     line-height: 25px;
     color: #ff3101;
     font-family: Verdana, Arial, sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     display: inline-block;
     vertical-align: top;
     cursor: pointer;
@@ -2445,7 +2445,7 @@ div.slides .caroufredsel_wrapper {
 }
 .review__content .review__title {
     font-family: Verdana, Arial, sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     color: #5d5551;
     font-weight: bold;
 }
@@ -2467,7 +2467,7 @@ div.slides .caroufredsel_wrapper {
     vertical-align: middle;
     font-family: Verdana, Arial, sans-serif;
     font-style: italic;
-    font-size: 11px;
+    font-size: 12px;
     color: #a89f99;
 }
 .rating__area .rating {
@@ -2602,7 +2602,7 @@ div.slides .caroufredsel_wrapper {
     font-family: Verdana, Arial, sans-serif;
     color: #c1bdbb;
     font-style: italic;
-    font-size: 11px;
+    font-size: 12px;
     position: absolute;
     top: 22px;
     left: 19px;
@@ -2653,7 +2653,7 @@ div.slides .caroufredsel_wrapper {
     font-family: Verdana, Arial, sans-serif;
     color: #5d5551;
     font-style: italic;
-    font-size: 11px;
+    font-size: 12px;
 }
 .review_form dl dd .rating {
     margin-bottom: 0;
@@ -2668,7 +2668,7 @@ div.slides .caroufredsel_wrapper {
 //     font-family: Verdana, Arial, sans-serif;
 //     color: #c1bdbb;
 //     font-style: italic;
-//     font-size: 11px;
+//     font-size: 12px;
 //     white-space: nowrap;
 // }
 .review_form dl dd .rating .active:nth-of-type(n)::after {
@@ -2679,7 +2679,7 @@ div.slides .caroufredsel_wrapper {
     font-family: Verdana, Arial, sans-serif;
     color: #c1bdbb;
     font-style: italic;
-    font-size: 11px;
+    font-size: 12px;
     white-space: nowrap;
 }
 .review_form dl .field {
@@ -2691,7 +2691,7 @@ div.slides .caroufredsel_wrapper {
     font-family: Verdana, Arial, sans-serif;
     color: #5d5551;
     font-style: italic;
-    font-size: 11px;
+    font-size: 12px;
     display: inline-block;
     vertical-align: middle;
     margin-left: 7px;
@@ -2703,7 +2703,7 @@ div.slides .caroufredsel_wrapper {
 [class^="drop__title-"] {
     font-family: Verdana, Arial, sans-serif;
     color: #60221a;
-    font-size: 11px;
+    font-size: 12px;
     border-bottom: 1px dashed;
     display: inline-block;
 }
@@ -2806,7 +2806,7 @@ body.space {
 }
 .basket_table tr.total p/*, .order_registration p*/ {
     font-family: Verdana, Arial, sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     color: #c1bdbb;
     font-style: italic;
     text-transform: lowercase;
@@ -2833,7 +2833,7 @@ body.space {
 .rating-status {
     color: #c1bdbb;
     font-family: Verdana,Arial,sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     font-style: italic;
     left: 90%;
     position: absolute;
@@ -3261,7 +3261,7 @@ div.news-list img.preview_picture {
 }
 .bx_item_detail_rating .bx_stars_rating_votes {
     color: #8d8d8d;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 11px;
     vertical-align: middle;
 }
@@ -4138,7 +4138,7 @@ div.news-list img.preview_picture {
         width: 50%;
         display: inline-block;
         vertical-align: top;
-        font-size: 11px;
+        font-size: 12px;
     }
     .functionality .list li {
         width: 50%;
@@ -4437,7 +4437,7 @@ div.news-list img.preview_picture {
         float: none;
     }
     #footer a {
-        font-size: 11px;
+        font-size: 12px;
     }
     .footer__category > div {
         display: inline-block;
@@ -5111,7 +5111,7 @@ div.news-list img.preview_picture {
 .btn-preview{
     position: absolute;
     left: 24px;
-    font-size: 11px;
+    font-size: 12px;
     color: #64544e;
     padding-left: 24px;
     white-space: nowrap;
@@ -5444,7 +5444,7 @@ body.blur #wrap{
 	background-image: url('/bitrix/templates/lidamebel_new/css/../images/wish.svg');
 	text-decoration: none;
 	color:#a9a19c;
-	font-size: 11px;
+	font-size: 12px;
 
 }
 .wish-cont .wish-link.wished.active{
@@ -5712,7 +5712,7 @@ body.blur #wrap{
 	min-width: 100%;
 }
 .delivery-form .checkout{
-	font-size: 11px;
+	font-size: 12px;
 	margin: 0;
 }
 .delivery-form .checkout.disabled{
@@ -5809,7 +5809,7 @@ body.blur #wrap{
 .btn-preview{
 	position: absolute;
 	left: 24px;
-	font-size: 11px;
+	font-size: 12px;
 	color: #64544e;
 	padding-left: 24px;
 	white-space: nowrap;
@@ -6116,7 +6116,7 @@ body.blur #wrap{
 .badge_links *:not(.sales-badge){margin-left: auto; margin-right: 0; padding-top: 5px;}
 .description a.cart_btn{margin: 0; margin-top: 20px; padding: 3px; width: calc(100% - 6px);}
 .description a.cart_btn:not(:only-child){margin-bottom: 10px;}
-.description a.cart_btn span{font-size: 11px; text-transform: none; margin-bottom: 0;}
+.description a.cart_btn span{font-size: 12px; text-transform: none; margin-bottom: 0;}
 .slide_image .product_item__link{position: absolute; width: 100%; height: 100%; z-index: 3;}
 /* new style for product_box*/
 .product_box{display: flex; flex-flow: row wrap; overflow: visible;}
@@ -6959,7 +6959,7 @@ body.active {
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 13px;
     color: #FFFFFF;
   }
@@ -6990,7 +6990,7 @@ body.active {
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 13px;
     color: #FFFFFF;
     -webkit-transition: all 0.3s ease 0s;
@@ -7115,7 +7115,7 @@ body.active {
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 13px;
     color: #FFFFFF;
   }
@@ -7135,7 +7135,7 @@ body.active {
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 13px;
     color: #FFFFFF;
   }
