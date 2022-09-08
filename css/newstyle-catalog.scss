@@ -4,6 +4,12 @@
 	overflow: hidden;
 	min-height: 700px;
 }
+.product_item .badge_links a {
+	height: 45px;
+}
+.badge_links *:not(.sales-badge) {
+	padding-top: 0px;
+}
 .breadcrumbs {
 	margin-bottom: 25px;
 	@media (max-width: 650px){

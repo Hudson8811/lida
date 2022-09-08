@@ -1063,6 +1063,7 @@
     -webkit-box-flex: 0;
         -ms-flex: 0 1 calc(50% - 0px);
             flex: 0 1 calc(50% - 0px);
+    padding-left: 65px;
   }
 }
 
@@ -1131,6 +1132,7 @@
     -webkit-box-flex: 0;
         -ms-flex: 0 1 calc(50% - 0px);
             flex: 0 1 calc(50% - 0px);
+    padding-left: 65px;
   }
 }
 
